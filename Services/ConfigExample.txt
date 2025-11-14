@@ -1,0 +1,10 @@
+import Foundation
+
+struct Config {
+    // Make an account on TMDB and obtain an api key at: https://www.themoviedb.org/settings/api
+    static let tmdbAccessToken = "<YOUR_TMDB_READ_ACCESS_TOKEN_HERE>"
+    
+    // instructions:
+    // 1. Rename this file to Config.swift once you have the api key
+    // 2. Replace YOUR_TMDB_READ_ACCESS_TOKEN_HERE with your TMDB API read access token
+}
